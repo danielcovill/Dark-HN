@@ -6,4 +6,5 @@
 // @name Dark HN
 // @match https://news.ycombinator.com/*
 // ==/UserScript==
-window.document.querySelectorAll('*').forEach(e=>e.setAttribute('style','background-color:#222;background-image:none;color:#'+(/^A|BU/.test(e.tagName)?'36c;text-decoration:underline;':'eee;')+e.getAttribute('style')))
+window.document.body.style.filter = 'saturate(0) invert(1) hue-rotate(180deg)'
+window.document.body.style.background = "#222"
