@@ -1,7 +1,10 @@
 // ==UserScript==
 // @name Dark HN
+// @namespace   Violentmonkey Scripts
 // @match https://news.ycombinator.com/*
+// @version     1.0
 // ==/UserScript==
+
 (function() {
     'use strict';
 
