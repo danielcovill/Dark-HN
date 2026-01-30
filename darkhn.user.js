@@ -9,7 +9,7 @@
     style.innerHTML = `
       table, .pagetop, .c00 {
         color: #CCC;
-        background: #222;
+        background: #111;
       }
       a {
         color: #CCC !important;
