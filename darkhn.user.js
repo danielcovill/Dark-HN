@@ -17,7 +17,9 @@
       body, .hnmain, .hnmain td {
         background: #111;
       }
-
+      textarea {
+        background-color: #000;
+      }
     `;
     document.head.appendChild(style);
 })();
