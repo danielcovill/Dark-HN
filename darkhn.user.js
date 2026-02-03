@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name Dark HN
 // @namespace   Violentmonkey Scripts
+// @run-at    document-end
 // @match https://news.ycombinator.com/*
-// @version     1.1
+// @version     1.2
 // ==/UserScript==
 
 (function() {
